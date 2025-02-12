@@ -1,27 +1,26 @@
-# ProjetoDogApi
+# 🐶 **ProjetoDogApi - API de Imagens de Cães**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+**ProjetoDogApi** é uma API que fornece imagens aleatórias de cães. O projeto foi desenvolvido utilizando **Node.js** e **Express**, proporcionando um backend simples, eficiente e fácil de usar para retornar imagens de cães de forma dinâmica.
 
-## Development server
+## 🚀 Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Endpoints** para pegar imagens de cães aleatórias.
+- **Integração com a API pública** de imagens de cães.
+- **Simples e leve**, ideal para integrar com outras plataformas.
 
-## Code scaffolding
+## 🛠️ Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Node.js**: Ambiente de execução do JavaScript.
+- **Express**: Framework para criação de APIs no Node.js.
+- **Axios**: Biblioteca para fazer requisições HTTP.
+- **API pública de cães** (ex: [The Dog API](https://thedogapi.com)).
 
-## Build
+## ⚙️ Como Rodar o Projeto Localmente
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 🔥 Pré-requisitos
 
-## Running unit tests
+Antes de começar, verifique se você possui as seguintes ferramentas instaladas em sua máquina:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Node.js** (recomendado versão 14.x ou superior)
+- **npm** (gerenciador de pacotes do Node.js)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
