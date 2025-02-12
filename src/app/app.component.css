@@ -1,0 +1,114 @@
+/* Estilo Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f0c096;
+    color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  /* Estilo da Container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilo do Header */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #ff5722; /* Cor vibrante de laranja */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Estilo do Card com Imagem do Cachorro */
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    width: 100%;
+    /* height: 350px; */
+    object-fit: cover;
+    border-bottom: 3px solid #f5f5f5;
+  }
+  
+  .card-content {
+    padding: 20px;
+    background-color: #ff5722; /* Fundo laranja vibrante */
+    border-radius: 0 0 12px 12px;
+  }
+  
+  .adopt-button {
+    background-color: #4CAF50; /* Cor verde vibrante */
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .adopt-button:hover {
+    background-color: #45a049; /* Efeito de hover mais escuro */
+  }
+  
+  .adopt-button:focus {
+    outline: none;
+  }
+  
+  /* Novo botão para atualizar imagem */
+  .refresh-button {
+    background-color: #2196F3; /* Cor azul vibrante */
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .refresh-button:hover {
+    background-color: #1976D2; /* Efeito de hover mais escuro */
+  }
+  
+  .refresh-button:focus {
+    outline: none;
+  }
+  

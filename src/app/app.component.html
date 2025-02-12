@@ -1,7 +1,18 @@
-<div style="text-align:center;">
-  <h1>
-    Aqui está um cachorro para você!
-  </h1>
-  <img *ngIf="dogImageUrl" [src]="dogImageUrl" alt="Imagem de um cachorro" width="500" />
-  <p *ngIf="!dogImageUrl">Carregando...</p>
+<div class="container">
+  <!-- Título -->
+  <header>
+    <h1 class="title">Cute Cães! Adote um amiguinho.</h1>
+  </header>
+
+  <!-- Card com a Imagem do Cachorro e Botão de Adoção -->
+  <div class="card">
+    <!-- Imagem do Cachorro -->
+    <img *ngIf="dogImageUrl" [src]="dogImageUrl" alt="Imagem de um cachorro" class="dog-image" />
+    <div class="card-content">
+      <!-- Botão de Adoção -->
+      <button class="adopt-button">Adotar</button>
+      <!-- Botão para Atualizar Imagem -->
+      <button class="refresh-button" (click)="getNewDog()">Mostrar Outro Cachorro</button>
+    </div>
+  </div>
 </div>
